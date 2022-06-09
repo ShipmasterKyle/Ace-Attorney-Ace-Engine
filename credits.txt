@@ -1,0 +1,82 @@
+Phoenix Wright: Ace Attorney (Original Game)
+Planning/Script/Director:
+Shu Takumi (巧 舟 Takumi Shuu)
+Planning:
+Takeshi Yamazaki (Yamazaki Takeshi)
+Design:
+Kazuya Nuri (塗 和也 Nuri Kazuya)
+Art:
+Yasuaki Kishimoto (Kishimoto Yasuaki)
+Tetsuya Enomoto (Enomoto Tetsuya)
+Koujirou Ogiwara (Ogiwara Koujirou)
+Hirochika Nagaki (Nagaki Hirochika)
+Animation:
+Kouta Fukamachi (Fukamachi Kouta)
+Takanori Ishikawa (Ishikawa Takanori)
+Graphics:
+Shuichi Muramoto (Muramoto Shuichi)
+Kiyoko Takeda (Takeda Kiyoko)
+Yasuhiro Morita (Morita Yasuhiro)
+Kouji Aoki (Aoki Kouji)
+Chie Nakajima (Nakajima Chie)
+Toshihiko Yamamoto (Yamamoto Toshihiko)
+Programming:
+Fumiaki Sato (Sato Fumiaki)
+Hitoshi Sakai (Sakai Hitoshi)
+Shiro Mikata (Mikata Shiro)
+Daisuke Kaneko (Kaneko Daisuke)
+Sound:
+Akemi Kimura (木村 明美 Kimura Akemi)
+Localization:
+Ben Judd
+Brandon Gay
+Kaori Funakoshi
+Translation:
+Bowne Global Solutions
+J. Patrick Riley
+Yuli Kim
+Steve Anderson
+Yoko Muto
+Alexander O. Smith
+Philip Soldini
+Special Thanks:
+Kimio Yamazoe (Yamazoe Kimio)
+Ayatomo Tanimoto (Tanimoto Ayatomo)
+Tatsuya Yoshikawa (吉川達哉 Yoshikawa Tatsuya)
+Keiji Kubori (Kubori Keiji)
+Tomohiro Masuda (Masuda Tomohiro)
+Setsuo Yamamoto (山本 節生 Yamamoto Setsuo)
+Hideaki Katagiri (Katagiri Hideaki)
+Miho Kobayashi (Kobayashi Miho)
+Kentaro Ohira (Ohira Kentaro)
+Ryohei Koyama (Koyama Ryohei)
+Producer:
+Minae Matsukawa (松川 美苗 Matsukawa Minae)
+Executive Producer:
+Tatsuya Minami (三並 達也 Minami Tatsuya)
+
+Phoenix Wright Ace Attorney (Port)
+Main Porgramming:
+ShipmasterKyle
+Animations by Invertigo
+
+Young Phoenix sheet: RA Kaiparahbat / Mikker
+Waitress Maya - sheet: Adam
+Waitress Mia - sheet: Adam
+Young Miles - sheet: Mikker
+Waitress Maggey - sheet: Adam
+Young Winston Payne - sheet: RA Kaiparahbat
+Godot - sheet: Adam
+Blue Badger - Capped by rtsmarty, cleaned / animated by Mikker
+Ema - capped by Mikker / rtsmarty
+Lana - capped by Bayfield / Deufeufeu
+Meekins - capped by rtsmarty /Deufeufeu
+Angel - capped by rtsmarty
+Jake - capped by Bayfield /Deufeufeu
+Gant - capped by rtsmarty / Deufeufeu
+Dee - ripped by Deufeufeu
+Yanni - ripped by Deufeufeu
+
+Ace Engine
+Created and Optimized By:
+ShipmasterKyle
