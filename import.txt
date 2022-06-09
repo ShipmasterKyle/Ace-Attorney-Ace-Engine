@@ -1,5 +1,5 @@
 ;{August 3, 9:47 AM Distric Court              Defendant Lobby No. 2}; ;Fade;
-Phoenix;(Boy am I nervous!); ;Waiting-room;
+Phoenix;(Boy am I nervous!); ;Lobby;
 Mia;Wright!; ; ;
 PhoenixM;Oh, h-hiya, Chief.;Normal; ;
 Mia;Whew, I'm glad I made it on time.;Normal; ;
@@ -95,3 +95,314 @@ Judge;She died because she was...?;Normal; ;
  ;How did the victim died. (Hint: Check the court record.); ;Ask;
 PhoenixC;She was struck once, by a blunt object.;Normal;Defense;
 Judge;Correct.;Nod;Judge;
+Judge;You've answered all my questions.;Serious; ;
+Judge;I see no reason whhy we shouldn't proceed.; ; ;
+Judge;You seem much more relaxed, Mr.Wright. Good for you.; ;
+PhoenixC;Thank you, Your Honor.;Normal;Defense;
+PhoenixC;(Because I don't FEEL relaxed, thats for sure.);Sweating;Defense;
+Judge;Well then.;Serious;Judge;
+Judge;First, a question for the prosecution. Mr.Payne?;Normal; ;
+Payne;Yes, Your Honor?;Normal;Prosecution;
+Judge;As Mr.Wright just told us, the victim was struck with a blunt object.;Serious;Judge;
+Judge;Would you explain to the court just what that "object" was?;Serious;Judge;
+Payne;The murder weapon was this statue of "The Thinker.";Normal;Prosecution;
+Payne;It was found lying on the floor, next to the victim;Normal;Prosecution;
+Judge;I see... The court accepts it into evidence.;Serious;Judge;
+--Add it to court record
+MiaC;Wright...;Serious;Co;
+MiaC;Be sure to pay attention to any evidence added during the trial.;Serious;Co;
+MiaC;That evidence is the only ammunition you have in court.;Serious;Co;
+MiaC;Use the Court Record Button to check the COurt Record.;Serious;Co;
+--Hammer Anim
+Judge;Mr.Payne, the prosecution may call its first witness.;Serious;Judge;
+Payne;The prosecution calls the defendant, Mr. Butz to the stand.;Normal;Prosecution;
+Phoenix;Um, Chief, what do I do now?;Serious;Co;
+MiaC;Pay attention. You don't want to miss any information that might help your client's case.;Serious;Co;
+MiaC;You'll get your chance to respond to the prosecution later, so be ready!; ;Co;
+MiaC;Let's just hope he doesn't say anything... unfortunate.; ;Co;
+PhoenixC;(Uh oh, Larry gets excited easily... this could be bad.); ;Co;
+--Fade
+Payne;Ahem. Mr. Butz. Is it not true that the victim had recently dumped you?;Normal;Co;
+Butz;Hey, watch it buddy! We were great together!; ;Witness;
+Butz;We were Romeo and Juliet, Cleopatra and Mark Anthony!; ;Witness;
+PhoenixC;(Um... didn't they all die?);Sweating;Defense;
+Butz;I wasn't dumped! She just wasn't taking my phone calls.; ;Witness;
+Butz;...or seeing me... Ever. WHAT'S IT TO YOU, ANYWAY!?; ; ;
+Payne;Mr. Butz, what you describe is generally what we mean by "dumped.";Normal;Prosecution;
+Payne;In fact, she had completely abandoned you... and was seeing other men!; ; ;
+Payne;She had just returned from overseas with one of them the day before the murder!; ; ;
+Butz;Whaddya mean, "one of them"!? Lies! All of it, lies! I don't believe a word of it!; ;Witness;
+Payne;Your Honor, the victim's passport.;Normal;Prosecution;
+Payne;According to this, she was in Paris until the day before she died.; ; ;
+--Add Passport
+Judge;Hmm... Indeed, she appears to have returned the day before the murder.;Normal;Judge;
+Butz;Dude... no way...; ;Witness;
+Payne;The victim was a model, but did not have a large income.;Normal;Prosecution;
+Payne;It appears that she had several "Sugar Daddies."; ; ;
+Butz;Daddies? Sugar?; ;Witness;
+Payne;Yes. Older men, who gave her money and gifts.;Normal;Prosectution;
+Payne;She took their money and used it to support her lifestyle.; ; ;
+Butz;Duuude!; ;Witness;
+Payne;We can clearly see what kind of woman this Ms. Stone was.;Normal;Prosectution;
+Payne;Tell me, Mr. Butz, /what do you think of her now?\; ; ;
+MiaC;Wright... I don't think you want him to answer that question.; ;Co;
+PhoenixC;(Yeah... Larry has a way of running his mouth in all the wrong directions.);Thinking; ;
+PhoenixC;(Should I...?; ;Ask;
+Butz;I'm gonna die. I'm just gonna drop dead!; ;Witness; 
+Butz;Yeah, and when I meet her in the afterlife...; ; ;
+Butz;I'm going to get to the bottom of this!; ; ;
+Judge;Let's continue with the trial, shall we?;Normal;Judge;
+Payne;I believe the accused's motive is clear to everyone.;Normal;Prosecution;
+Judge;Yes, quite.;Normal;Judge;
+PhoenixC;(Oh boy. This is so not looking good.);Sweating;Defense;
+Payne;Next question!;Normal;Prosecution;
+Payne;You went to the victim's apartment on the day of the murder, did you not?; ; ;
+Butz;Gulp!; ;Witness;
+Payne;Well, did you, or did you not?; ;Prosecution;
+Butz;Heh? Heh heh. Well, maybe I did, and maybe I didn't!; ;Witness;
+PhoenixC;(Uh oh. He went.);Thinking;Defense;
+Phoenix;(What do I do?); ;Ask;
+Judge;Well, that simplifies matters. Who is your witness?;Normal;Judge;
+Payne;The man who found the victim's body.;Normal;Prosecution;
+Payne;Just before making the gruesome discovery...; ; ;
+Payne;He saw the defendant fleeing the scene of the crime!; ; ;
+--Gallery
+--Hammer
+Judge;Order! Order in the court!;Serious;Judge;
+Judge;Mr. Payne, the prosecution may call its witness.; ; ;
+Payne;Yes, Your Honor.;Normal;Prosecution;
+PhoenixC;(This is bad...);Sweating;Defense;
+Payne;On the day of the murder, my witness was selling newspapers at the victim's building.;Normal;Prosecution;
+Payne;Please bring Mr. Frank Sahwit to the stand!;Normal;Prosecution;
+--Fade
+Payne;Mr. Sahwit, you sell newspaper subscriptions, is this correct?;Normal;Prosecution;
+Sahwit;Oh, oh yes! Newspapers, yes!;Normal;Witness;
+Judge;Mr. Sahwit, you may proceed with your testimony.;Serious;Judge;
+Judge;Please tell the court what you saw on the day of the murder; ; ;
+--Fade
+[[Witness Testimony]]
+ ;/-- Witness's Account --\;Normal;Witness;
+Sahwit;I was going door-to-door, selling subscriptions when I saw a man fleeing an apartment.;Normal;Witness;
+Sahwit;I thought he must be in a hurry because he left the door half-open behind him.; ; ;
+Sawhit;Thinking it strange, I looked inside the apartment.; ; ;
+Sawhit;Then I saw her lying there... A woman... not moving... dead!; ; ;
+Sawhit;I quailed in fright and found myself unable to go inside.; ; ;
+Sawhit;I thought to call the police immediately!; ; ;
+Sawhit;However, the phone in her apartment wasn't working.; ; ;
+Sawhit;I went to a nearby park and found a public phone.; ; ;
+Sawhit;I remember the time exactly: It was 1:00 PM.; ; ;
+Sawhit;The man who ran was, without a doubt, the defendant sitting right over there.; ; ;
+--Fade
+Judge;Hmm...;Serious; ; ;
+PhoenixC;(Larry! Why didn't you tell the truth? I can't defend you against a testimony like that!);Sweating;Defense;
+Judge;Incidentally, why wasn't the phone in the victim's apartment working?;Serious;Judge;
+Payne;Your Honor, at the time of the murder, there was a blackout in the building.;Normal;Prosecution;
+Judge;Aren't phones supposed to work during a blackout?;Serious;Judge;
+Payne;Yes, Your Honor... However, some cordless phones do not function normally.;Normal;Prosecution;
+Payne;The phone that Mr. Sahwit used was one of those. Your Honor... I have a record of the blackout, for your perusal.; ; ;
+--Blackout Record added to the Court Record.
+Judge;Now, Mr. Wright...;Serious;Judge;
+PhoenixC;Yes! Er... yes, Your Honor?;Normal;Defense;
+Judge;You may begin your cross-examination.;Normal;Judge;
+PhoenixC;C-Cross-examination, Your Honor?;Thinking;Defense;
+MiaC;Alright, Wright, this is it. The real deal!;Serious;Co;
+Phoenix;Uh... what exactly am I supposed to do?; ; ;
+MiaC;Why, you expose the/lies\in the testimony the witness just gave!; ; ;
+Phoenix;Lies! What?! He was lying!?; ; ;
+MiaC;Your client is innocent, right?; ; ;
+MiaC;Then that witness must have lied in his testimony!; ; ;
+MiaC;Or is your client really... guilty?; ; ;
+Phoenix;!!! How do I prove he's not?;; ; ;
+Mia;You hold the key! It's in the evidence!; ; ;
+Mia;Compare the witness's testimony to the evidence at hand. There's bound to be a contradiction in there!; ; ;
+Mia;First, find contradictions between the Court Record and the witness's testimony.; ; ;
+Mia;Then, once you've found the contradicting evidence... present it and rub it in the witness's face!; ; ;
+Phoenix;Um... okay.; ; ;
+Mia;Press the Court Record button and point out contradictions in the testimony!; ; ;
+--Cross Examine Start
+
+PhoenixC;You found the body at 1:00 PM. You're sure?;Thinking;Defense;
+Sahwit;Yes. It was 1:00 PM, for certain.; ;Witness;
+PhoenixC;Frankly, I find that hard to believe! Your statement directly contradicts the autopsy report.;Smug;Defense;
+PhoenixC;The autopsy notes the time of death at sometime after 4PM.;Document;Defense;
+PhoenixC;There was nobody to... er... no "body" to find at 1:00 PM! How do you explain this three-hour gap?;Smug; ;
+Sahwit;!!! Oh, that! Oh, er...;Panic;Witness;
+--Payne Objection
+Payne;This is trivial! The witness merely forgot the time!; ;Prosecution;
+Judge;After his testimony, I find that hard to believe. Mr. Sahwit... Why were you so certain that you found the body at 1:00 PM?;Serious;Judge;
+Sahwit;I.. er... well, I... Gee, that's a really good question!; ;Witness;
+Mia;Great job, Wright! Way to put him on the spot!; ;Co;
+Mia;That's all you have to do: point out contradictions! Lies always beget more lies! See through one, and their whole story falls apart!; ; ;
+Sahwit;Wait! I remember now!; ;Witness;
+Judge;Would you care to give your testimony again?;Serious;Judge;
+--Fade
+--Witness Testimony
+;/-- The Time of Discovery --\;Normal;Witness;
+Sahwit;You see, when I found the body, I heard the time.; ; ;
+Sahwit;There was a voice saying the time... It was probably coming from the television.; ; ;
+Sahwit;Oh, but it was three hours off, wasn't it?; ; ;
+Sahwit;I guess the victim must have been watching a video of a taped program!; ; ;
+Sahwit;That's why I thought it was 1:00 PM!; ; ;
+Sahwit;Terribly sorry about the misunderstanding...; ; ;
+--Fade
+Judge;Hmm... I see. You heard a voice saying the time on a taped program. Mr. Wright, you may cross-examine the witness.;Normal;Judge; 
+MiaC;Wright! You know what to do!; ;Co;
+PhoenixC;I've got this one.; ;Co;
+--Cross Examine Start
+
+PhoenixC;Hold it right there! The prosecution has said there was a blackout at the time of the discovery!;Smug;Defense;
+PhoenixC;And this record proves it!;Document; ;
+Sahwit;...!; ;Wtinessl
+Phoenix;You couldn't have heard a television... or a video!;Smug;Defense;
+Sahwit;Gah!!! I... well... urk!; ;Wtiness;
+Judge;The defense has a point. Do you have an explanation for this, Mr. Sahwit?;Serious;Judge;
+Sahwit;No, I... I find it quite puzzling myself! Quite! ... ; ;Witness;
+Sahwit;Aah! W-wait! I remember now!; ;Witness;
+Judge;Mr. Sahwit? The court would prefer to hear an accurate testimony from the very beginning.;Serious;Judge;
+Judge;These constant corrections are harming your credibility.; ; ;
+Judge;That, and you seem rather... distraught.; ; ;
+Sahwit;...! M-my apologies, Your Honor! It... er, it must have been the shock of finding the body!; ;Witness;
+Judge;Very well, Mr. Sahwit. Let's hear your testimony once more please.;Serious;Judge;
+--Witness Testimony
+ ;/-- Hearing the Time --\; ;Witness;
+Sahwit;Actually, I didn't "hear" the time... I "saw" it!; ; ;
+Sahwit;There was a table clock in the apartment, wasn't there!; ; ;
+Sahwit;Yeah, the murder weapon! The killer used it to hit the victim!; ; ;
+Sahwit;That must have been what I saw.; ; ;
+Judge;You saw a clock? I guess that would explain it. The defense may cross-examine the witness.;Serious;Judge;
+PhoenixC;Gladly.;Normal;Defense;
+--Cross Examination Start
+
+PhoenixC;Wait just a moment! The murder weapon wasn't a clock. It was this statue! Now how is this supposed to be a clock?;Thinking;Defense;
+Sahwit;Whaa!? Y-you with your "objections," and your "evidence"... Just who do you think you are!?;Panic;Witness;
+PhoenixC;Just answer the question, Mr. Sahwit.;Normal;Defense;
+Sahwit;Hey, I... I saw it there, okay! That's a clock!; ;Witness;
+Payne;Your Honor! If I may...;Sweating;Prosecution;
+Judge;Yes, Mr. Payne?;Serious;Judge;
+Payne;As the witness stated, this statue is indeed a clock. The neck is a switch.;Normal;Prosecution;
+Payne;You just tilt it, and it says the time out loud. As it doesn't look like a clock, I submitted it as a statue. My apologies.; ; ;
+Judge;I see. So the murder weapon was a table clock after all.;Normal;Judge;
+Judge;Well, Mr. Wright? It appears that the witness's testimony was correct. This is a clock.;Serious; ;
+Judge;Do you have any problems with his testimony now?; ;Ask;
+PhoenixC;The only way he could have known the weapon was a clock is to hold it in his hand.;Thinking;Defense;
+PhoenixC;Yet the witness testified that he never entered the apartment! Clearly, a contradiction!;Pointing; ;
+Judge;Hmm... indeed!;Normal;Judge;
+PhoenixC;The witness knew it was a clock, because he...;Thinking;Ask;
+PhoenixC;You're lying! You were inside the apartment on the day of the murder!;Pointing;Defense;
+Sahwit;Oh yeah? Prove it! Prove I went in there!;Smug;Witness;
+PhoenixC;I'll do better than that! I can prove you were the one who killed her!;Pointing;Defense;
+PhoenixC;You struck her with the clock, and the shock of the blow triggered the clock's voice! That was the sound you heard!;Smug; ;
+--Gallery
+--Hammer
+Judge;Order in the court! Intriguing. Please continue, Mr. Wright.;Serious;Judge;
+PhoenixC;Yes, Your Honor. Mr. Sahwit. The sound must have left quite an impression on you.;Thinking;Defense;
+PhoenixC;Understandable, since the murder weapon spoke just as you hit the victim!; ; ;
+PhoenixC;That voice was burned into your mind. That's why you were so certain about the time!; ; ;
+--Payne Objection
+Payne;W-w-what's the meaning of this? This is all baseless conjecture!;Panic;Prosecution;
+PhoenixC;Baseless...? Just look at the witness's face!;Normal;Defense;
+Sahwit;Ngh... grrrah!;Panic;Witness;
+Judge;Would the witness care to elaborate? Did you strike the victim with the clock?;Serious;Normal;
+Sahwit;I... I...! That... that day... I... I never! Look... I... the clock... I heard, no! I mean, I saw...Saw... nggg! Gwaaaaaaaaaaaaah!;Panik;Witness
+Sahwit;Shutupshutupshutup! I hate you! I-it was him, I tell you! I saw him! H-he killed her and he should burn! Burn! Give him death!; ; ;
+--Gallery
+--Hammer
+Judge;Order! Order in the court I say!;Serious;Judge;
+Payne;Your Honor, a-a moment please! There isn't a shred of evidence supporting the defense's claims!;Panic;Prosecution;
+Judge;Mr. Wright!;Serious;Judge;
+PhoenixC;Your Honor?;Normal;Defense;
+Judge;You claim the sound the witness heard came from the clock... Do you have any evidence?;Serious;Judge;
+PhoenixC;(The whole case is riding on this! I'd better think it through carefully!);Thinking;Defense;
+PhoenixC;Yes, Your Honor. The sound Mr. Sahwit heard was definitely this clock. A fact which is clear if you simply...;Normal;Ask;
+PhoenixC;Let's sound the clock now, here in this court. Your Honor, may I have the clock? I ask the court to listen very carefully...;Normal;Defense;
+Clock;/...*beep*...\; ;Blackout;
+Clock;{I think it's 8:25.}; ; ;
+Judge;That certainly is a strange way to announce the time.;Normal;Judge;
+PhoenixC;Well, he is "The Thinker," after all.;Normal;Defense;
+Judge;So, we've heard the clock. What are your conclusions, Mr. Wright?;Serious;Judge;
+PhoenixC;Mr. Payne... can you tell me what time it is now?;Smug;Defense;
+Payne;It's 11:25... Ack!;Suprised;Prosecution;
+PhoenixC;As you can see, this clock is exactly three hours slow! Precisely the discrepancy between what Mr. Sahwit heard and the actual time of death!;Document;Defense;
+PhoenixC;So, Mr. Sahwit... Try to talk your way out of this one!;Smug; ;
+Sahwit;... ...Hah! Hah hah! You forgot one thing!; ;Witness;
+PhoenixC;(Uh oh... what's he talking about...?);Sweating;Defense;
+Sahwit;While it may seem like that clock IS running three hours slow... It proves nothing!; ;Witness;
+Sahwit;How do you know it was running three days slow on the day of the murder!? If you can't prove that, you don't have a case!; ;Witness;
+PhoenixC;...! (He's right! How am I going to prove that!? Dammit! I was so close!);Suprised;Defense;
+Judge;Mr. Wright? It seems you lack the critical evidence to support your claim.;Serious;Judge;
+PhoenixC;...! Yes, Your Honor.;Normal;Defense;
+Judge;This means I cannot let you indict the witness. Unfortunately... This ends the cross-examination of Mr. Frank Sahwit.;Serious;Judge;
+Sahwit;I come all the way down here to testify, and look what happens! You treat me like a criminal! A criminal! You lawyers are all slime!; ;Witness;
+Phoenix;(Grr! I almost had him! Sorry, Larry... I failed you. There's nothing I can do about it now...);Sweating;Defense;
+--Fade
+MiaC;Not so fast, Mr. Sahwit!; ;Co;
+PhoenixC;Mia! I mean, Chief!; ; ;
+MiaC;Listen up, Wright! Don't throw this one away, not like this! Think!; ; ;
+Phoenix;But, Chief, it's over. I can't prove the clock was slow the day of the murder! Nobody can prove that!; ; ;
+MiaC;Um... well, yes. But that doesn't mean you can't still win! Try thinking out of the box! Don't waste time doubting the facts.; ; ;
+MiaC;Assume the clock was three hours slow and... Think through it! Ask yourself,/"Why was the clock three hours slow"?\; ; ;
+MiaC;Figure out the reason, and you'll have your proof! Right, Wright? Can you think of a reason as to why the clock would be three hours slow?; ;Ask;
+Judge;Let's see this evidence that proves why the clock was running slow!;Serious;Judge;
+PhoenixC;The victim had just returned home from abroad the day before the murder. As we all know, the time difference between here and Paris is nine hours!;Document;Defense;
+PhoenixC;When it's 4:00 PM here, it's 1:00 AM the next day there. The clock wasn't three hours slow, it was nine hours fast!;Document; ;
+PhoenixC;The victim hadn't reset her clock since returning home! That's why the time you heard when you struck her dead in her apartment was wrong!;Smug; ;
+PhoenixC;Proof enough for you, Mr. Sahwit? Or should I say... Mr. Did It!; ; ;
+Sahwit;Ngh! ...!;Breakdown;Witness;
+--Gallery
+--Hammerx3
+Judge;O-order! Order, I say!;Serious;Judge;
+--Fade
+Judge;Well... This case has certainly turned out differently than we all expected. Mr. Payne... your witness?;Serious;Judge;
+Payne;He... er... he was arrested and has been taken away, Your Honor.;Worried;Prosecution;
+Judge;Very well. Mr. Wright?;Serious;Judge;
+PhoenixC;Yes, Your Honor.;Normal;Defense
+Judge;I have to say, I'm impressed. I don't think I've ever seen someone complete a defense so quickly... and find the true culprit at the same time!;Normal;Judge;
+PhoenixC;Thank you, Your Honor.;Normal;Defense;
+Judge;At this point, this is only a formality, but... This court finds the defendant, Mr. Larry Butz...;Normal;Judge;
+--Not Guilty
+Judge;And with that... The court is adjourned.;Normal;Judge;
+--Fade
+Phoenix;It turns out that Frank Sahwit was a common burglar! He posed as a newspaper sales-man to check and see when people were out of the house!; ;Fade;
+Phoenix;That day... When Larry went to her apartment, the victim wasn't home. After he left, Mr. Sahwit let himself in to do his dirty work!; ; ;
+Phoenix;While he was searching her place, the victim returned! Flustered, Mr. Sahwit grabbed the nearest blunt object he could find...; ; ;
+;{August 3, 2:32 AM Distric Court              Defendant Lobby No. 2}; ;Fade;
+Phoenix;(Whew... I still can't believe we won!); ;Lobby;
+Mia;Wright! Good job in there! Congratulations!;Happy; ;
+Phoenix;Th-thanks, Chief. I owe it all to you.; ; ;
+Mia;Not at all, not at all! You fought your own battles in there. It's been a while since I've seen a trial end on such a satisfying note!; ; ;
+Phoenix;(I've never seen the chief looking this happy... If she's this glad, imagine how Larry must feel!); ; ;
+Butz;My life is over...; ; ;
+Phoenix;Larry! You're supposed to be happy! What's wrong now!?; ; ;
+Butz;Aww, Nick... Don't worry 'bout me! I'll be dead and gone soon!; ; ;
+Phoenix;Good! Wait, no! I mean... Bad! Bad bad bad! Larry, you're innocent! The case is closed.; ; ;
+Butz;... But... but my Cindy-windy's gone, man! Gone forever!; ; ;
+Phoenix;(Larry, she was a... Nah... Never mind.); ; ;
+Mia;Congratulations, Harry!; ; ;
+Butz;H-Harry...?; ; ;
+Mia;Yes, you! I can practically see the headlines now: "Harry Butz, Innocent!"; ; ;
+Butz;Heh... um... thanks! I really owe you one. I won't forget this, ever! Let's celebrate! Dinner? Movie? My treat!; ; ;
+Mia;Oh, no, I couldn't.; ; ;
+Phoenix;(Hey, I was the one who got you off the hook!); ; ;
+Butz;Oh, hey! H-here, take this! It's a present!; ; ;
+Mia;A present? For me? Wait... Wasn't this the evidence that...; ; ;
+Butz;Actually, I made this clock for her! I made one for her and one for me.; ; ;
+Mia;R-really? You? You made this? ... Well, thank you. I'll keep it as a memento.; ; ;
+Butz;Yo, Nick... Can you believe it? I was so into that chick... And... and she was just playing me for a fool! Don't that make you wanna just cry?;Cry; ;
+Phoenix;Larry...; ; ;
+Mia;... Are you so sure?;Suprised; ;
+Butz;Ex-squeeze me?; ; ;
+Mia;I think she thought quite a lot of you, in her own way.; ; ;
+Butz;Nah, you don't gotta sympathize with me, 'sokay.; ; ;
+Mia;Oh, I'm not just sympathizing, really. Isn't that right, Wright? Don't you have something to show your friend? Something that proves how she felt about him?; ; ;
+Phoenix;H-huh? Oh, yeah, right!; ; ;
+Phoenix;(What the heck is she talking about?); ; ;
+--Proof Persent
+Mia;Wright? I hope you see the importance of evidence now. Also, hopefully you realize, things change depending on how you look at them. People, too. We never really know if our clients are guilty or innocent.; ; ;
+Mia;All we can do is believe in them. And in order to believe in them, you have to believe in yourself. Wright... Listen. Learn. Grow strong. Never let go of what you believe in. Never.; ; ;
+Mia;Well, I think our work here is done! Shall we be off?; ; ;
+Phoenix;Yeah, I guess so!; ; ;
+Mia;Say, how about dinner. On me? We'll drink a toast to innocent Butz!; ; ;
+Phoenix;Yeah!; ; ;
+Mia;Oh, speaking of Harry... You were saying part of why you became a lawyer was because of him.; ; ;
+Phoenix;Er, yeah. Part, at least.; ; ;
+Mia;You'll have to tell me more about it sometime! Maybe... over drinks?; ; ;
